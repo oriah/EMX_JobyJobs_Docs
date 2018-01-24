@@ -1,0 +1,192 @@
+{
+	"info": {
+		"name": "EMX-JobyJobs-Admin",
+		"_postman_id": "26276204-84cb-9ad4-1351-3226aabf3fc9",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "AdminPersons",
+			"description": "",
+			"item": []
+		},
+		{
+			"name": "AdminPersonSettings",
+			"description": "",
+			"item": []
+		},
+		{
+			"name": "Applications",
+			"description": "",
+			"item": []
+		},
+		{
+			"name": "Employers",
+			"description": "",
+			"item": []
+		},
+		{
+			"name": "EmployerDepartments",
+			"description": "",
+			"item": []
+		},
+		{
+			"name": "EmployerPersons",
+			"description": "",
+			"item": []
+		},
+		{
+			"name": "Interviews",
+			"description": "",
+			"item": []
+		},
+		{
+			"name": "SubProfessions",
+			"description": "",
+			"item": []
+		},
+		{
+			"name": "Seekers",
+			"description": "",
+			"item": []
+		},
+		{
+			"name": "SeekerResumes",
+			"description": "",
+			"item": []
+		},
+		{
+			"name": "SeekeJobInterests",
+			"description": "",
+			"item": [],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "56964a69-9473-40af-81bf-faf539435f43",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "720fdc22-0861-425c-be41-37de79638c0d",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "SeekerSettings",
+			"description": "",
+			"item": []
+		},
+		{
+			"name": "Fields",
+			"description": "",
+			"item": []
+		},
+		{
+			"name": "Professions",
+			"description": "",
+			"item": []
+		},
+		{
+			"name": "Conversations",
+			"description": "",
+			"item": []
+		},
+		{
+			"name": "Positions",
+			"description": "",
+			"item": [
+				{
+					"name": "http://admin.jobyjobs.com/Professions/Edit",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://admin.jobyjobs.com/Professions/Create",
+							"protocol": "http",
+							"host": [
+								"admin",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Professions",
+								"Create"
+							]
+						},
+						"description": "Admin-Positions-Create"
+					},
+					"response": []
+				},
+				{
+					"name": "http://admin.jobyjobs.com/Professions/Delete",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://admin.jobyjobs.com/Professions/Edit",
+							"protocol": "http",
+							"host": [
+								"admin",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Professions",
+								"Edit"
+							]
+						},
+						"description": "Admin-Positions- Edit"
+					},
+					"response": []
+				},
+				{
+					"name": "http://admin.jobyjobs.com/Professions/Delete",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://admin.jobyjobs.com/Professions/Delete",
+							"protocol": "http",
+							"host": [
+								"admin",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Professions",
+								"Delete"
+							]
+						},
+						"description": "Admin-Positions- Delete"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "PositionTags",
+			"description": "",
+			"item": []
+		},
+		{
+			"name": "GlobalSettings",
+			"description": "",
+			"item": []
+		}
+	]
+}

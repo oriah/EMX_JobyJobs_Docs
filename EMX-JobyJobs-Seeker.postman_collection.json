@@ -1,0 +1,513 @@
+{
+	"info": {
+		"name": "EMX-JobyJobs-Seeker",
+		"_postman_id": "7ced34a0-a4d4-df61-c969-9222a6021732",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Professions",
+			"description": "",
+			"item": [
+				{
+					"name": "GetProfessionsHierarchy",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "GetProfessionsHierarchy",
+							"host": [
+								"GetProfessionsHierarchy"
+							]
+						},
+						"description": "Seeker(Both) - Gets the full professions hierarchy"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Reactions",
+			"description": "",
+			"item": [
+				{
+					"name": "http://www.jobyjobs.com/Reactions/GetMatchedPositions",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://www.jobyjobs.com/Reactions/GetMatchedPositions",
+							"protocol": "http",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Reactions",
+								"GetMatchedPositions"
+							]
+						},
+						"description": "Seeker - Gets all positions that were matched with the current seeker"
+					},
+					"response": []
+				},
+				{
+					"name": "https://www.jobyjobs.com/Reactions/SetSeekerLikesPosition",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://www.jobyjobs.com/Reactions/SetSeekerLikesPosition",
+							"protocol": "https",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Reactions",
+								"SetSeekerLikesPosition"
+							]
+						},
+						"description": "Candidate- Set Worker likes position(true or false)"
+					},
+					"response": []
+				},
+				{
+					"name": "https://www.jobyjobs.com/Reactions/GetRecentLikesEmployer",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://www.jobyjobs.com/Reactions/GetRecentLikesSeeker",
+							"protocol": "https",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Reactions",
+								"GetRecentLikesSeeker"
+							]
+						},
+						"description": "Seeker - Gets the recent likes(all positions)"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Positions",
+			"description": "",
+			"item": [
+				{
+					"name": "http://www.jobyjobs.com/Positions/SearchPosition",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://www.jobyjobs.com/Positions/SearchPositions",
+							"protocol": "http",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Positions",
+								"SearchPositions"
+							]
+						},
+						"description": "Seeker - Search position by criteria"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Seekers",
+			"description": "",
+			"item": [
+				{
+					"name": "http://www.jobyjobs.com/Seekers/GetMyDetails",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://www.jobyjobs.com/Seekers/GetMyDetails",
+							"protocol": "http",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Seekers",
+								"GetMyDetails"
+							]
+						},
+						"description": "Seeker- Get my details"
+					},
+					"response": []
+				},
+				{
+					"name": "https://www.jobyjobs.com/Seekers/UploadSeekerAvatar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://www.jobyjobs.com/Seekers/UploadSeekerAvatar",
+							"protocol": "https",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Seekers",
+								"UploadSeekerAvatar"
+							]
+						},
+						"description": "Seeker- Upload worker Avatar image"
+					},
+					"response": []
+				},
+				{
+					"name": "http://www.jobyjobs.com/Seekers/UpdateAvatar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://www.jobyjobs.com/Seekers/UpdateAvatar",
+							"protocol": "http",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Seekers",
+								"UpdateAvatar"
+							]
+						},
+						"description": "Seeker- Updates seeker avatar image"
+					},
+					"response": []
+				},
+				{
+					"name": "http://www.jobyjobs.com/Seekers/UpdateSeekerPreferences",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://www.jobyjobs.com/Seekers/UpdateSeekerPreferences",
+							"protocol": "http",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Seekers",
+								"UpdateSeekerPreferences"
+							]
+						},
+						"description": "Seeker- Update seeker preferences"
+					},
+					"response": []
+				},
+				{
+					"name": "http://www.jobyjobs.com/Applications/DownloadMobileAppIOS",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://www.jobyjobs.com/Applications/DownloadMobileAppIOS",
+							"protocol": "http",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Applications",
+								"DownloadMobileAppIOS"
+							]
+						},
+						"description": "Seeker- Downloads the mobile app for IOS"
+					},
+					"response": []
+				},
+				{
+					"name": "http://www.jobyjobs.com/Applications/DownloadMobileAppAndroid",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://www.jobyjobs.com/Applications/DownloadMobileAppAndroid",
+							"protocol": "http",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Applications",
+								"DownloadMobileAppAndroid"
+							]
+						},
+						"description": "Seeker- Downloads the mobile app for Android"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Companies",
+			"description": "",
+			"item": []
+		},
+		{
+			"name": "Applications",
+			"description": "",
+			"item": [
+				{
+					"name": "https://www.jobyjobs.com/Applications/ApplyForPosition",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://www.jobyjobs.com/Applications/ApplyForPosition",
+							"protocol": "https",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Applications",
+								"ApplyForPosition"
+							]
+						},
+						"description": "Seeker- Apply for a position"
+					},
+					"response": []
+				},
+				{
+					"name": "https://www.jobyjobs.com/Applications/DropApplication",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://www.jobyjobs.com/Applications/DropApplication",
+							"protocol": "https",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Applications",
+								"DropApplication"
+							]
+						},
+						"description": "Seeker- Drop an existing application"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Account",
+			"description": "",
+			"item": [
+				{
+					"name": "http://www.jobyjobs.com/Account/RegisterSeeker",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://www.jobyjobs.com/Account/RegisterSeeker",
+							"protocol": "http",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Account",
+								"RegisterSeeker"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "http://www.jobyjobs.com/Account/RegisterSeekerApproveCode",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://www.jobyjobs.com/Account/RegisterSeekerApproveCode",
+							"protocol": "http",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Account",
+								"RegisterSeekerApproveCode"
+							]
+						},
+						"description": "Seeker- Approves the code for the registration process."
+					},
+					"response": []
+				},
+				{
+					"name": "http://www.jobyjobs.com/Account/LoginSeeker",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://www.jobyjobs.com/Account/LoginWorker",
+							"protocol": "http",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Account",
+								"LoginWorker"
+							]
+						},
+						"description": "Seeker - Logs in to the system"
+					},
+					"response": []
+				},
+				{
+					"name": "http://www.jobyjobs.com/Account/GenerateTokenSeeker",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "UserName",
+									"value": "oahdout85@gmail.com",
+									"description": "The user name (email)",
+									"type": "text"
+								},
+								{
+									"key": "Password",
+									"value": "8D969EEF6ECAD3C29A3A629280E686CF0C3F5D5A86AFF3CA12020C923ADC6C92",
+									"description": "The password (hashed SHA-256)",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://www.jobyjobs.com/Account/GenerateTokenSeeker",
+							"protocol": "http",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Account",
+								"GenerateTokenSeeker"
+							]
+						},
+						"description": "Seeker- request forgot password (reset password)"
+					},
+					"response": []
+				},
+				{
+					"name": "http://www.jobyjobs.com/Account/ForgotPasswordSeeker",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "Email",
+									"value": "oahdout85@gmail.com",
+									"description": "",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://www.jobyjobs.com/Account/ForgotPasswordEmployer",
+							"protocol": "http",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Account",
+								"ForgotPasswordEmployer"
+							]
+						},
+						"description": "Seeker- request forgot password (reset password)"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Conversations",
+			"description": "",
+			"item": [
+				{
+					"name": "http://www.jobyjobs.com/Conversations/SendMessageEmployerToSeeker",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://www.jobyjobs.com/Conversations/SendMessageSeekerToEmployer",
+							"protocol": "http",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Conversations",
+								"SendMessageSeekerToEmployer"
+							]
+						},
+						"description": "Seeker- Send a message from a seeker to an employer person"
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

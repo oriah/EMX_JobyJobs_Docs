@@ -1,0 +1,1148 @@
+{
+	"info": {
+		"name": "EMX-JobyJobs-Employer",
+		"_postman_id": "3a73594a-4ba5-dd1a-3a14-42ae3705cd8e",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Account",
+			"description": "",
+			"item": [
+				{
+					"name": "http://www.jobyjobs.com/Account/RegisterEmployer",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "Email",
+									"value": "oria@yes.co.il",
+									"type": "text",
+									"description": ""
+								},
+								{
+									"key": "Password",
+									"value": "8D969EEF6ECAD3C29A3A629280E686CF0C3F5D5A86AFF3CA12020C923ADC6C92",
+									"type": "text",
+									"description": ""
+								},
+								{
+									"key": "EmployerPersonFirstName",
+									"value": "Ori",
+									"type": "text",
+									"description": ""
+								},
+								{
+									"key": "EmployerPersonLastName",
+									"value": "Ahdout",
+									"type": "text",
+									"description": ""
+								},
+								{
+									"key": "EmployerPersonIdNumber",
+									"value": "039940999",
+									"type": "text",
+									"description": ""
+								},
+								{
+									"key": "EmployerPersonJobFunction",
+									"value": "מנכל",
+									"type": "text",
+									"description": ""
+								},
+								{
+									"key": "EmployerPersonPhoneNumber",
+									"value": "0549980099",
+									"type": "text",
+									"description": ""
+								},
+								{
+									"key": "EmployerName",
+									"value": "Yes",
+									"type": "text",
+									"description": ""
+								},
+								{
+									"key": "EmployerHP",
+									"value": "430947934",
+									"type": "text",
+									"description": ""
+								},
+								{
+									"key": "Address",
+									"value": "Vaisman 16, Tel Aviv",
+									"type": "text",
+									"description": ""
+								},
+								{
+									"key": "PhoneNumber",
+									"value": "073233838",
+									"type": "text",
+									"description": ""
+								},
+								{
+									"key": "About",
+									"value": "about",
+									"type": "text",
+									"description": ""
+								},
+								{
+									"key": "WebSiteURL",
+									"value": "www.yes.co.il",
+									"type": "text",
+									"description": ""
+								},
+								{
+									"key": "EmployerLogo",
+									"value": "yes_logo.png",
+									"type": "text",
+									"description": ""
+								}
+							]
+						},
+						"url": {
+							"raw": "http://www.jobyjobs.com/Account/RegisterEmployer",
+							"protocol": "http",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Account",
+								"RegisterEmployer"
+							]
+						},
+						"description": "Employer- Registers a new employer and also its initiator employer person."
+					},
+					"response": []
+				},
+				{
+					"name": "http://www.jobyjobs.com/Account/InviteEmployerPerson",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "SenderEmployerPersonId",
+									"value": "1",
+									"type": "text",
+									"description": ""
+								},
+								{
+									"key": "RecipientEmail",
+									"value": "oahdout85@gmail.com",
+									"type": "text",
+									"description": ""
+								}
+							]
+						},
+						"url": {
+							"raw": "http://www.jobyjobs.com/Account/InviteEmployerPerson",
+							"protocol": "http",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Account",
+								"InviteEmployerPerson"
+							]
+						},
+						"description": "Employer - Issue an invitation to another employer person"
+					},
+					"response": []
+				},
+				{
+					"name": "http://www.jobyjobs.com/Account/OnRegisterInviteOpened",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "inviteUID",
+									"value": "b012c17c-6353-4966-bcf8-5d3271bfbc65",
+									"type": "text",
+									"description": ""
+								}
+							]
+						},
+						"url": {
+							"raw": "http://www.jobyjobs.com/Account/OnRegisterInviteOpened",
+							"protocol": "http",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Account",
+								"OnRegisterInviteOpened"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "http://www.jobyjobs.com/Account/RegisterEmployerPerson",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "Email",
+									"value": "benb@yes.co.il",
+									"type": "text",
+									"description": ""
+								},
+								{
+									"key": "Password",
+									"value": "8D969EEF6ECAD3C29A3A629280E686CF0C3F5D5A86AFF3CA12020C923ADC6C92",
+									"type": "text",
+									"description": ""
+								},
+								{
+									"key": "InviteUID",
+									"value": "20F355E9-B56E-4E79-9C16-269239D559D7",
+									"type": "text",
+									"description": ""
+								},
+								{
+									"key": "EmployerPersonFirstName",
+									"value": "Ben",
+									"type": "text",
+									"description": ""
+								},
+								{
+									"key": "EmployerPersonLastName",
+									"value": "Barak",
+									"type": "text",
+									"description": ""
+								},
+								{
+									"key": "EmployerPersonPhoneNumber",
+									"value": "054588779",
+									"type": "text",
+									"description": ""
+								},
+								{
+									"key": "EmployerPersonIdNumber",
+									"value": "039994949",
+									"type": "text",
+									"description": ""
+								},
+								{
+									"key": "EmployerPersonJobFunction",
+									"value": "עוזר מנהל",
+									"type": "text",
+									"description": ""
+								}
+							]
+						},
+						"url": {
+							"raw": "http://www.jobyjobs.com/Account/RegisterEmployerPerson",
+							"protocol": "http",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Account",
+								"RegisterEmployerPerson"
+							]
+						},
+						"description": "Employer- Registers a new employer person (and also assigns them to an existing employer)"
+					},
+					"response": []
+				},
+				{
+					"name": "http://www.jobyjobs.com/Account/OnRegisterInviteRejected",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "inviteUID",
+									"value": "b012c17c-6353-4966-bcf8-5d3271bfbc65",
+									"type": "text",
+									"description": ""
+								}
+							]
+						},
+						"url": {
+							"raw": "http://www.jobyjobs.com/Account/OnRegisterInviteRejected",
+							"protocol": "http",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Account",
+								"OnRegisterInviteRejected"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "http://www.jobyjobs.com/Account/OnRegisterInviteCancelled",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "inviteUID",
+									"value": "b012c17c-6353-4966-bcf8-5d3271bfbc65",
+									"type": "text",
+									"description": ""
+								}
+							]
+						},
+						"url": {
+							"raw": "http://www.jobyjobs.com/Account/OnRegisterInviteCancelledd",
+							"protocol": "http",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Account",
+								"OnRegisterInviteCancelledd"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "http://www.jobyjobs.com/Account/GenerateTokenEmployer",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "UserName",
+									"value": "oria@yes.co.il",
+									"description": "The user name (email)",
+									"type": "text"
+								},
+								{
+									"key": "Password",
+									"value": "8D969EEF6ECAD3C29A3A629280E686CF0C3F5D5A86AFF3CA12020C923ADC6C92",
+									"description": "The Password (SHA-256 hashed)",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://www.jobyjobs.com/Account/GenerateTokenEmployer",
+							"protocol": "http",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Account",
+								"GenerateTokenEmployer"
+							]
+						},
+						"description": "Employer- Generate authentication token"
+					},
+					"response": []
+				},
+				{
+					"name": "http://www.jobyjobs.com/Account/ForgotPasswordEmployer",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://www.jobyjobs.com/Account/ForgotPasswordEmployer",
+							"protocol": "http",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Account",
+								"ForgotPasswordEmployer"
+							]
+						},
+						"description": "Employer- request forgot password (reset password)"
+					},
+					"response": []
+				},
+				{
+					"name": "http://www.jobyjobs.com/Account/RegisterEmployerApproveCode",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://www.jobyjobs.com/Account/RegisterEmployerApproveCode",
+							"protocol": "http",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Account",
+								"RegisterEmployerApproveCode"
+							]
+						},
+						"description": "Employer- Approves the code for the registration process."
+					},
+					"response": []
+				},
+				{
+					"name": "http://www.jobyjobs.com/Account/LoginEmployer",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://www.jobyjobs.com/Account/LoginEmployer",
+							"protocol": "http",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Account",
+								"LoginEmployer"
+							]
+						},
+						"description": "Employer- Login to the system"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Positions",
+			"description": "",
+			"item": [
+				{
+					"name": "http://www.jobyjobs.com/Positions/PostPosition",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "EmployerId",
+									"value": "4",
+									"type": "text",
+									"description": ""
+								},
+								{
+									"key": "Title",
+									"value": "סוכן שטח",
+									"type": "text",
+									"description": ""
+								},
+								{
+									"key": "ProfessionId",
+									"value": "106",
+									"type": "text",
+									"description": ""
+								},
+								{
+									"key": "Description",
+									"value": "מנהל מכירות שטח בחברת יס",
+									"type": "text",
+									"description": ""
+								},
+								{
+									"key": "JobRequirements",
+									"value": "ניסיון במכירות של 3 שנים לפחות; ניסיון בניהול צוות",
+									"type": "text",
+									"description": ""
+								},
+								{
+									"key": "SalaryMin",
+									"value": "6000",
+									"type": "text",
+									"description": ""
+								},
+								{
+									"key": "SalaryMax",
+									"value": "6500",
+									"type": "text",
+									"description": ""
+								},
+								{
+									"key": "Location",
+									"value": "תל אביב והמרכז",
+									"type": "text",
+									"description": ""
+								},
+								{
+									"key": "PositionType",
+									"value": "1",
+									"type": "text",
+									"description": ""
+								}
+							]
+						},
+						"url": {
+							"raw": "http://www.jobyjobs.com/Positions/PostPosition",
+							"protocol": "http",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Positions",
+								"PostPosition"
+							]
+						},
+						"description": "Employer- Posts a new position"
+					},
+					"response": []
+				},
+				{
+					"name": "https://www.jobyjobs.com/Positions/GetFrozenPositions",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://www.jobyjobs.com/Positions/GetFrozenPositions",
+							"protocol": "https",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Positions",
+								"GetFrozenPositions"
+							]
+						},
+						"description": "Employer- Get frozen positions"
+					},
+					"response": []
+				},
+				{
+					"name": "https://www.jobyjobs.com/Positions/GetAllPositionsDTO",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://www.jobyjobs.com/Positions/GetAllPositionsDTO",
+							"protocol": "https",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Positions",
+								"GetAllPositionsDTO"
+							]
+						},
+						"description": "Employer- Get all positions (DTO)"
+					},
+					"response": []
+				},
+				{
+					"name": "https://www.jobyjobs.com/Positions/GetDraftPositions",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://www.jobyjobs.com/Positions/GetDraftPositions",
+							"protocol": "https",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Positions",
+								"GetDraftPositions"
+							]
+						},
+						"description": "Employer- Get draft positions"
+					},
+					"response": []
+				},
+				{
+					"name": "https://www.jobyjobs.com/Positions/GetDeletedPositions",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://www.jobyjobs.com/Positions/GetDeletedPositions",
+							"protocol": "https",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Positions",
+								"GetDeletedPositions"
+							]
+						},
+						"description": "Employer- Get deleted positions"
+					},
+					"response": []
+				},
+				{
+					"name": "http://www.jobyjobs.com/Positions/GetPositionInfoEmployer",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://www.jobyjobs.com/Positions/GetPositionInfo",
+							"protocol": "http",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Positions",
+								"GetPositionInfo"
+							]
+						},
+						"description": "Employer- Gets a single position information"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Reactions",
+			"description": "",
+			"item": [
+				{
+					"name": "http://www.jobyjobs.com/Reactions/GetMatchedCandidates",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://www.jobyjobs.com/Reactions/GetMatchedCandidates",
+							"protocol": "http",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Reactions",
+								"GetMatchedCandidates"
+							]
+						},
+						"description": "Employer - Gets all candidates that were matched with the current position and company person"
+					},
+					"response": []
+				},
+				{
+					"name": "http://www.jobyjobs.com/Positions/GetLikedCandidates",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://www.jobyjobs.com/Positions/GetLikedCandidates",
+							"protocol": "http",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Positions",
+								"GetLikedCandidates"
+							]
+						},
+						"description": "Employer- Gets all candidates that are liked by the given employer person for the specified position"
+					},
+					"response": []
+				},
+				{
+					"name": "http://www.jobyjobs.com/Positions/GetLikingCandidates",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://www.jobyjobs.com/Positions/GetLikingCandidates",
+							"protocol": "http",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Positions",
+								"GetLikingCandidates"
+							]
+						},
+						"description": "Employer- Gets all candidates that have liked the current position"
+					},
+					"response": []
+				},
+				{
+					"name": "https://www.jobyjobs.com/Reactions/SetEmployerLikesSeekerAndPosition",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://www.jobyjobs.com/Reactions/SetEmployerLikesSeekerAndPosition",
+							"protocol": "https",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Reactions",
+								"SetEmployerLikesSeekerAndPosition"
+							]
+						},
+						"description": "Employer- Set Company person likes worker for position(true or false)"
+					},
+					"response": []
+				},
+				{
+					"name": "https://www.jobyjobs.com/Reactions/GetRecentLikesEmployer",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "https://www.jobyjobs.com/Reactions/GetRecentLikesEmployer",
+							"protocol": "https",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Reactions",
+								"GetRecentLikesEmployer"
+							]
+						},
+						"description": "Employer - Gets the recent likes for the current employer person (all positions)"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Conversations",
+			"description": "",
+			"item": [
+				{
+					"name": "http://www.jobyjobs.com/Conversations/GetAllCoversationsEmployer",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "Email",
+									"value": "oahdout85@gmail.com",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://www.jobyjobs.com/Conversations/GetAllCoversationsEmployer",
+							"protocol": "http",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Conversations",
+								"GetAllCoversationsEmployer"
+							]
+						},
+						"description": "Employer- Gets all conversation headers."
+					},
+					"response": []
+				},
+				{
+					"name": "http://www.jobyjobs.com/Conversations/GetAllMessagesEmployer",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://www.jobyjobs.com/Conversations/GetAllMessagesEmployer",
+							"protocol": "http",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Conversations",
+								"GetAllMessagesEmployer"
+							]
+						},
+						"description": "Employer- Gets all messages with a particular worker"
+					},
+					"response": []
+				},
+				{
+					"name": "http://www.jobyjobs.com/Conversations/SendMessageEmployerToSeeker",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://www.jobyjobs.com/Conversations/SendMessageEmployerToSeeker",
+							"protocol": "http",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Conversations",
+								"SendMessageEmployerToSeeker"
+							]
+						},
+						"description": "Employer- Send a message from an employer person to a seeker"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Applications",
+			"description": "",
+			"item": [
+				{
+					"name": "http://www.jobyjobs.com/Positions/GetHiredCandidates",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://www.jobyjobs.com/Positions/GetHiredCandidates",
+							"protocol": "http",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Positions",
+								"GetHiredCandidates"
+							]
+						},
+						"description": "Employer - Gets the hired candidates for a paricular position"
+					},
+					"response": []
+				},
+				{
+					"name": "https://www.jobyjobs.com/Applications/GetUnwatchedCVs",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://www.jobyjobs.com/Applications/GetUnwatchedCVs",
+							"protocol": "https",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Applications",
+								"GetUnwatchedCVs"
+							]
+						},
+						"description": "Employer- Gets the application CVs that had not been watched"
+					},
+					"response": []
+				},
+				{
+					"name": "http://www.jobyjobs.com/Positions/GetAllCandidatesDTO",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://www.jobyjobs.com/Positions/GetAllCandidatesDTO",
+							"protocol": "http",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Positions",
+								"GetAllCandidatesDTO"
+							]
+						},
+						"description": "Employer- Gets all candidates (DTO)"
+					},
+					"response": []
+				},
+				{
+					"name": "http://www.jobyjobs.com/Applications/SetInterview",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://www.jobyjobs.com/Applications/SetInterview",
+							"protocol": "http",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Applications",
+								"SetInterview"
+							]
+						},
+						"description": "Employer-Sets a new interview"
+					},
+					"response": []
+				},
+				{
+					"name": "http://www.jobyjobs.com/Applications/UpdateInterview",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://www.jobyjobs.com/Applications/UpdateInterview",
+							"protocol": "http",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Applications",
+								"UpdateInterview"
+							]
+						},
+						"description": "Employer- Updates the given interview information"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Seekers",
+			"description": "",
+			"item": [
+				{
+					"name": "http://www.jobyjobs.com/Seekers/GetSeekerInfo",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://www.jobyjobs.com/Seekers/GetSeekerInfo",
+							"protocol": "http",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Seekers",
+								"GetSeekerInfo"
+							]
+						},
+						"description": "Employer- Gets a single worker information"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Employers",
+			"description": "",
+			"item": [
+				{
+					"name": "http://www.jobyjobs.com/Employers/UpdateEmployer",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://www.jobyjobs.com/Employers/UpdateEmployer",
+							"protocol": "http",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Employers",
+								"UpdateEmployer"
+							]
+						},
+						"description": "Employer- Updates the given employer person information"
+					},
+					"response": []
+				},
+				{
+					"name": "http://www.jobyjobs.com/Employers/UpdateEmployePerson",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http://www.jobyjobs.com/Employers/UpdateEmployerPerson",
+							"protocol": "http",
+							"host": [
+								"www",
+								"jobyjobs",
+								"com"
+							],
+							"path": [
+								"Employers",
+								"UpdateEmployerPerson"
+							]
+						},
+						"description": "Employer- Updates the given employer information"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Professions",
+			"description": "",
+			"item": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJvcmlhQHllcy5jby5pbCIsImp0aSI6ImI4MzEwZmMzLTU2M2UtNDFjOS1hNDBlLTE0Y2YxYjVkMDljMSIsIm5iZiI6MTUxNjgwMTQyNiwiZXhwIjoxNTIxOTg1NDI2LCJpc3MiOiJodHRwOi8vd3d3LmpvYnlqb2JzLmNvbSJ9.SmrDt1E_-UbNXpLsS3BGMXVuwoEExZkF77Qpib_IC6Y",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "a34c53ae-6ac7-405d-a666-d2963162835c",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "936b2d53-5007-446e-8308-090d8944c301",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
