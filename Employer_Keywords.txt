@@ -1,0 +1,33 @@
+:::LoginEmployer:::
+צור חשבון create_account_btn_txt
+התחברות connect_title_txt
+שם משתמש user_name_label_txt
+סיסמא password_label_txt
+שכחתי סיסמא forgot_password_label_txt
+התחבר connect_btn_txt
+השאר אותי מחובר remember_me_chk_txt
+
+:::RegisterEmployer:::  
+שם המעסיק employer_name_tbx_txt
+חפ employer_hp_tbx_txt
+כתובת אי מייל email_tbx_txt
+טלפון phone_number_tbx_txt
+כתובת address_tbx_txt
+כתובת אתר web_site_url_tbx_txt
+סיסמא password_tbx_txt
+שינוי סיסמא לינק change_password_link_txt
+על החברה about_tbx_txt
+הירשם register_btn_txt
+
+
+:::HomePageEmployer:::
+ברוך הבא welcome_prefix_txt
+תפריט לוח בקרה menu_control_panel_lnk_txt
+תפריט משרות menu_position_lnk_txt
+תפריט ראיונות menu_interview_lnk_txt
+תפריט הודעות menu_messages_lnk_txt
+תפריט פרופיל menu_my_profile_lnk_txt
+פרסם משרה left_menu_post_position_btn_txt
+משרות פתוחות open_postions_title_lbl_txt
+מועמדים אחרונים שאהבתי recent_liked_candidates_title_lbl_txt
+מועמדים אחרונים שהאהבו recent_liking_candidates_title_lbl_txt
