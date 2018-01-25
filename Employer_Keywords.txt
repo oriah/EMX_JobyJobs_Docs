@@ -1,33 +1,33 @@
-:::LoginEmployer:::
-φεψ ηωαεο create_account_btn_txt
-δϊηαψεϊ connect_title_txt
-ων ξωϊξω user_name_label_txt
-ριρξΰ password_label_txt
-ωληϊι ριρξΰ forgot_password_label_txt
-δϊηαψ connect_btn_txt
-δωΰψ ΰεϊι ξηεαψ remember_me_chk_txt
+ο»Ώ:::LoginEmployer:::
+Χ¦Χ•Χ¨ Χ—Χ©Χ‘Χ•Χ create_account_btn_txt
+Χ”ΧªΧ—Χ‘Χ¨Χ•Χª connect_title_txt
+Χ©Χ ΧΧ©ΧªΧΧ© user_name_label_txt
+Χ΅Χ™Χ΅ΧΧ password_label_txt
+Χ©Χ›Χ—ΧªΧ™ Χ΅Χ™Χ΅ΧΧ forgot_password_label_txt
+Χ”ΧªΧ—Χ‘Χ¨ connect_btn_txt
+Χ”Χ©ΧΧ¨ ΧΧ•ΧªΧ™ ΧΧ—Χ•Χ‘Χ¨ remember_me_chk_txt
 
 :::RegisterEmployer:::  
-ων δξςριχ employer_name_tbx_txt
-ητ employer_hp_tbx_txt
-λϊεαϊ ΰι ξιιμ email_tbx_txt
-θμτεο phone_number_tbx_txt
-λϊεαϊ address_tbx_txt
-λϊεαϊ ΰϊψ web_site_url_tbx_txt
-ριρξΰ password_tbx_txt
-ωιπει ριρξΰ μιπχ change_password_link_txt
-ςμ δηαψδ about_tbx_txt
-διψων register_btn_txt
+Χ©Χ Χ”ΧΧΆΧ΅Χ™Χ§ employer_name_tbx_txt
+Χ—Χ¤ employer_hp_tbx_txt
+Χ›ΧªΧ•Χ‘Χª ΧΧ™ ΧΧ™Χ™Χ email_tbx_txt
+ΧΧΧ¤Χ•Χ phone_number_tbx_txt
+Χ›ΧªΧ•Χ‘Χª address_tbx_txt
+Χ›ΧªΧ•Χ‘Χª ΧΧªΧ¨ web_site_url_tbx_txt
+Χ΅Χ™Χ΅ΧΧ password_tbx_txt
+Χ©Χ™Χ Χ•Χ™ Χ΅Χ™Χ΅ΧΧ ΧΧ™Χ Χ§ change_password_link_txt
+ΧΆΧ Χ”Χ—Χ‘Χ¨Χ” about_tbx_txt
+Χ”Χ™Χ¨Χ©Χ register_btn_txt
 
 
 :::HomePageEmployer:::
-αψεκ δαΰ welcome_prefix_txt
-ϊτψιθ μεη αχψδ menu_control_panel_lnk_txt
-ϊτψιθ ξωψεϊ menu_position_lnk_txt
-ϊτψιθ ψΰιεπεϊ menu_interview_lnk_txt
-ϊτψιθ δεγςεϊ menu_messages_lnk_txt
-ϊτψιθ τψετιμ menu_my_profile_lnk_txt
-τψρν ξωψδ left_menu_post_position_btn_txt
-ξωψεϊ τϊεηεϊ open_postions_title_lbl_txt
-ξεςξγιν ΰηψεπιν ωΰδαϊι recent_liked_candidates_title_lbl_txt
-ξεςξγιν ΰηψεπιν ωδΰδαε recent_liking_candidates_title_lbl_txt
+Χ‘Χ¨Χ•Χ Χ”Χ‘Χ welcome_prefix_txt
+ΧªΧ¤Χ¨Χ™Χ ΧΧ•Χ— Χ‘Χ§Χ¨Χ” menu_control_panel_lnk_txt
+ΧªΧ¤Χ¨Χ™Χ ΧΧ©Χ¨Χ•Χª menu_position_lnk_txt
+ΧªΧ¤Χ¨Χ™Χ Χ¨ΧΧ™Χ•Χ Χ•Χª menu_interview_lnk_txt
+ΧªΧ¤Χ¨Χ™Χ Χ”Χ•Χ“ΧΆΧ•Χª menu_messages_lnk_txt
+ΧªΧ¤Χ¨Χ™Χ Χ¤Χ¨Χ•Χ¤Χ™Χ menu_my_profile_lnk_txt
+Χ¤Χ¨Χ΅Χ ΧΧ©Χ¨Χ” left_menu_post_position_btn_txt
+ΧΧ©Χ¨Χ•Χª Χ¤ΧªΧ•Χ—Χ•Χª open_postions_title_lbl_txt
+ΧΧ•ΧΆΧΧ“Χ™Χ ΧΧ—Χ¨Χ•Χ Χ™Χ Χ©ΧΧ”Χ‘ΧªΧ™ recent_liked_candidates_title_lbl_txt
+ΧΧ•ΧΆΧΧ“Χ™Χ ΧΧ—Χ¨Χ•Χ Χ™Χ Χ©Χ”ΧΧ”Χ‘Χ• recent_liking_candidates_title_lbl_txt
